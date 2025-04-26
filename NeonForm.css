@@ -1,0 +1,134 @@
+body {
+    background-color: #000;
+    color: #00c3ff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .top-bar {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #00c3ff;
+    text-shadow: 0 0 8px #00c3ff;
+  }
+  
+  .card {
+    background-color: #111;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 195, 255, 0.2);
+  }
+  
+  .label {
+    color: #00c3ff;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1c1c1c;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .row, .macro-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .row input, .row select,
+  .macro-row input {
+    flex: 1;
+  }
+  
+  .meal-type {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .meal-type button {
+    flex: 1;
+    padding: 10px;
+    background-color: #222;
+    border: 1px solid #00c3ff;
+    border-radius: 10px;
+    color: #00c3ff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .meal-type button:hover {
+    background-color: #003344;
+  }
+  
+  .camera-btn {
+    background-color: #1c1c1c;
+    border: 1px solid #00c3ff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #00c3ff;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .save-btn {
+    width: 100%;
+    background-color: #00c3ff;
+    color: #000;
+    padding: 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 12px #00c3ff;
+    transition: 0.3s;
+  }
+  
+  .save-btn:hover {
+    background-color: #009acc;
+  }
+  
+  .icon {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #00c3ff;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #00c3ff;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .checkboxes label {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .mood-icons {
+    font-size: 1.5em;
+    margin-top: 8px;
+  }
